@@ -181,7 +181,7 @@ const Dashboard = () => {
         <div class="text">
         Elected Candidate 
     </div>
-    <VoterCard img={img4}
+    <VoterCard img={wincand.ipfsHash}
                name={wincand.name}
                age={wincand.age}
                party={wincand.party}
